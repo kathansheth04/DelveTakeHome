@@ -115,7 +115,7 @@ export default function UserStatusTable() {
       console.log(mfaTags)
       setLoading(false);
     }
-  }, [usersData, rlsStatus, mfaTags]);
+  }, [rlsStatus, mfaTags]);
 
   const MFARenderStatus = (isEnabled) => {
     return (
